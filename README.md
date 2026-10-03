@@ -12,13 +12,11 @@ can be processed effectively in Golang.
 # Recommended workspace structure:
 
 ```
-```
 src/
 ├── main.go          # CLI driver, top-level synthesis pipeline
 ├── parser/          # Lexer, parser, and AST node definitions
 ├── netlist/         # Graph nodes (Cell, Net, Module, Design)
 └── passes/          # Independent processing steps (Elaboration, Mapping)
-```
 ```
 
 # Plan
